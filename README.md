@@ -7,12 +7,13 @@ You need this packages to start compiling this os.
 ```
 sudo pacman -S arch-install-scripts awk dosfstools e2fsprogs /
 erofs-utils findutils gzip libarchlive libisoburn mtools/
-openssl pacman sed squashfs-tools 
+openssl pacman sed squashfs-tools shellcheck
 ```
+If you are ready start compiling.
 ```
 git clone https://github.com/cNoNi/BobishLinux.git
 
 cd BobishLinux 
 
-mkarchiso -v -w -o ./
+sudo mkarchiso -v -w -o ./
 ```
